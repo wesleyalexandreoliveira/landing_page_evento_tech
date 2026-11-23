@@ -257,3 +257,37 @@ figcaption {
     line-height: 1.6;
 }
 
+#pilares {
+    padding: 80px 4.5%;
+
+    /* Fundo azul sem quadriculado */
+    background-color: #0B1D30;
+
+    /* Linhas de separação */
+    border-top: 1px solid rgba(72, 221, 245, 0.2);
+    border-bottom: 1px solid rgba(72, 221, 245, 0.2);
+}
+
+.pilares-texto {
+    text-align: left;
+}
+
+.pilares-texto h2 {
+    color: #72E8FF;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.pilares-texto h1 {
+    font-size: 36px;
+    line-height: 1.3;
+    color: #F1F5F9;
+}
+
+.pilares-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
