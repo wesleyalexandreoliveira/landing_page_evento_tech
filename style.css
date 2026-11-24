@@ -377,3 +377,76 @@ figcaption {
 }
 
 
+/* SEÇÃO 5 - PALESTRANTES */
+
+#palestrantes {
+    padding: 80px 4.5%;
+    background-color: #0B1D30;
+
+    /* Linha de separação da próxima seção */
+    border-bottom: 1px solid rgba(72, 221, 245, 0.2);
+}
+
+/* TÍTULO E H1 */
+
+.palestrantes-texto {
+    text-align: center;
+}
+
+.palestrantes-texto h2 {
+    color: #72E8FF;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.palestrantes-texto h1 {
+    font-size: 36px;
+    line-height: 1.3;
+    color: #F1F5F9;
+}
+
+/* CARDS DOS PALESTRANTES */
+
+.palestrantes-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+/* CARD INDIVIDUAL */
+
+.palestrante-card {
+    border: 1px solid #F1F5F9;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* FOTOGRAFIAS */
+
+.palestrante-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* NOME DO PALESTRANTE */
+
+.palestrante-card h3 {
+    color: #F1F5F9;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+/* CARGO E EMPRESA */
+
+.palestrante-card p {
+    color: #72E8FF;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
