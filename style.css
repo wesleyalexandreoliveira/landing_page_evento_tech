@@ -449,4 +449,96 @@ figcaption {
 }
 
 
+/* SEÇÃO 6 - INSCRIÇÃO */
+#inscricao {
+    padding: 80px 4.5%;
+    background-color: transparent;
+}
+
+/* TÍTULO E DESCRIÇÃO */
+.inscricao-texto {
+    text-align: center;
+}
+
+.inscricao-texto h2 {
+    color: #72E8FF;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.inscricao-texto h1 {
+    font-size: 36px;
+    line-height: 1.3;
+    color: #F1F5F9;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.inscricao-texto p {
+    color: #B8C7D9;
+    font-size: 16px;
+}
+
+/* FORMULÁRIO */
+.inscricao-formulario {
+    max-width: 600px;
+    margin: 40px auto 0;
+    padding: 35px;
+    background-color: rgba(22, 54, 88, 0.35);
+    border: 1px solid rgba(72, 221, 245, 0.2);
+    border-radius: 18px;
+}
+
+/* CAMPOS */
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.campo label {
+    color: #F1F5F9;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.campo input,
+.campo select {
+    padding: 14px;
+    background-color: #06101B;
+    border: 1px solid rgba(72, 221, 245, 0.2);
+    border-radius: 8px;
+    color: #F1F5F9;
+    font-size: 15px;
+    outline: none;
+}
+
+.campo input:focus,
+.campo select:focus {
+    border-color: #72E8FF;
+}
+
+/* BOTÃO DE INSCRIÇÃO */
+.inscricao-formulario button {
+    width: 100%;
+    padding: 16px;
+    margin-top: 10px;
+    background-color: #8CF05A;
+    color: #06101B;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.inscricao-formulario button:hover {
+    background-color: #A5FF75;
+    transform: translateY(-4px);
+    box-shadow: 0 0 15px rgba(140, 240, 90, 0.6);
+}
+
+
+
 
