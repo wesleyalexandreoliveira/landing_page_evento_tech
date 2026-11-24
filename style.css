@@ -291,3 +291,89 @@ figcaption {
     margin-top: 30px;
 }
 
+
+/* SEÇÃO 4 - PROGRAMAÇÃO */
+
+#programacao {
+    padding: 80px 4.5%;
+
+    /* Fundo igual ao body, sem quadriculado */
+    background-color: #06101B;
+
+    /* Linha de separação da Section 5 */
+    border-bottom: 1px solid rgba(72, 221, 245, 0.2);
+}
+
+/* TÍTULO CENTRALIZADO */
+
+.programacao-texto {
+    text-align: center;
+}
+
+.programacao-texto h2 {
+    color: #72E8FF;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.programacao-texto h1 {
+    font-size: 36px;
+    line-height: 1.3;
+    color: #F1F5F9;
+}
+
+/* CARDS DA PROGRAMAÇÃO */
+
+.programacao-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.programacao-item {
+    background-color: rgba(22, 54, 88, 0.35);
+    border: 1px solid rgba(72, 221, 245, 0.2);
+    border-radius: 18px;
+    padding: 25px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+/* DATA E HORÁRIO DAS PALESTRAS */
+
+.programacao-item span {
+    display: block;
+    color: #72E8FF;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+/* TÍTULO DA PALESTRA */
+
+.programacao-item h3 {
+    color: #F1F5F9;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+/* NOME DO PALESTRANTE */
+
+.programacao-item p {
+    color: #B8C7D9;
+    font-size: 15px;
+    margin-top: 12px;
+    line-height: 1.5;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+
+.programacao-item:hover {
+    border-color: #72E8FF;
+    transform: translateY(-5px);
+}
+
+
