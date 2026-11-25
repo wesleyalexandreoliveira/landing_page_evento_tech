@@ -10,6 +10,16 @@
   font-display: swap;
 }
 
+/* AJUSTE GLOBAL DE DIMENSÕES */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -155,35 +165,6 @@ figcaption {
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
-
-
-
-@media (max-width: 850px) {
-
-    header {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-
-    header ul {
-        gap: 15px;
-        padding: 0;
-    }
-
-    main {
-        grid-template-columns: 1fr;
-        padding: 40px 5%;
-    }
-
-    aside h1 {
-        font-size: 32px;
-    }
-
-    figure img {
-        height: 350px;
-    }
-}
-
 
 /* SEÇÃO 2 - SOBRE */
 
@@ -540,5 +521,246 @@ figcaption {
 }
 
 
+/* =========================================
+   RESPONSIVIDADE - TABLETS
+   ========================================= */
+
+@media (max-width: 850px) {
+
+        /* CABEÇALHO - TABLETS */
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 22px;
+        padding: 20px 5%;
+    }
+
+    header > a {
+        margin-top: 5px;
+    }
+
+    /* INÍCIO */
+
+    #inicio {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 55px 5%;
+    }
+
+    aside h1 {
+        font-size: 36px;
+    }
+
+    figure img {
+        width: 100%;
+        height: 350px;
+    }
+
+    figcaption {
+        left: 10px;
+        right: 10px;
+    }
+
+    /* SOBRE */
+
+    #sobre {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 60px 5%;
+    }
+
+    .sobre-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* PILARES */
+
+    #pilares {
+        padding: 60px 5%;
+    }
+
+    .pilares-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* PROGRAMAÇÃO */
+
+    #programacao {
+        padding: 60px 5%;
+    }
+
+    .programacao-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* PALESTRANTES */
+
+    #palestrantes {
+        padding: 60px 5%;
+    }
+
+    .palestrantes-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* INSCRIÇÃO */
+
+    #inscricao {
+        padding: 60px 5%;
+    }
+}
 
 
+/* =========================================
+   RESPONSIVIDADE - SMARTPHONES
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    /* CABEÇALHO */
+
+    header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px 5%;
+    }
+
+    #title h1 {
+        font-size: 19px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    header ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        padding: 0;
+        margin: 5px 0;
+    }
+
+    header ul a {
+        font-size: 13px;
+    }
+
+    header > a {
+        padding: 12px 22px;
+    }
+
+    /* INÍCIO */
+
+    #inicio {
+        padding: 45px 6%;
+        gap: 25px;
+    }
+
+    aside h2 {
+        font-size: 11px;
+        letter-spacing: 1px;
+        padding: 8px 12px;
+    }
+
+    aside h1 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    aside p {
+        font-size: 16px;
+    }
+
+    figure img {
+        width: 100%;
+        height: 260px;
+        border-radius: 18px;
+    }
+
+    figcaption {
+        font-size: 12px;
+        padding: 12px;
+    }
+
+    /* TÍTULOS DAS SEÇÕES */
+
+    .sobre-titulo h1,
+    .pilares-texto h1,
+    .programacao-texto h1,
+    .palestrantes-texto h1,
+    .inscricao-texto h1 {
+        font-size: 27px;
+        line-height: 1.3;
+    }
+
+    .sobre-titulo h2,
+    .pilares-texto h2,
+    .programacao-texto h2,
+    .palestrantes-texto h2,
+    .inscricao-texto h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    /* ESPAÇAMENTO DAS SEÇÕES */
+
+    #sobre,
+    #pilares,
+    #programacao,
+    #palestrantes,
+    #inscricao {
+        padding: 50px 6%;
+    }
+
+    /* CARDS */
+
+    .sobre-cards,
+    .pilares-cards,
+    .programacao-cards,
+    .palestrantes-cards {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .card {
+        padding: 22px;
+    }
+
+    /* PROGRAMAÇÃO */
+
+    .programacao-item {
+        padding: 22px;
+    }
+
+    .programacao-item span {
+        font-size: 16px;
+    }
+
+    .programacao-item h3 {
+        font-size: 18px;
+    }
+
+    /* PALESTRANTES */
+
+    .palestrante-card img {
+        height: 300px;
+    }
+
+    /* FORMULÁRIO */
+
+    .inscricao-formulario {
+        width: 100%;
+        padding: 22px;
+    }
+
+    .campo input,
+    .campo select {
+        width: 100%;
+        min-width: 0;
+        font-size: 14px;
+    }
+
+    .inscricao-formulario button {
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+
+}
