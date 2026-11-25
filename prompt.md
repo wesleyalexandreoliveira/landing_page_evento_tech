@@ -31,3 +31,31 @@ Como criar cards que contenham a imagem dos palestrantes, seus nomes e cargos ou
 **8. Section 6 – Seleção de curso no formulário**
 
 Como criar um campo de seleção em um formulário HTML que permita ao usuário escolher entre dois cursos, Análise e Desenvolvimento de Sistemas (ADS) e Sistemas de Informação (SI)?
+
+9. **Estrutura principal do HTML**
+
+Como organizar a estrutura HTML de uma Landing Page para um evento acadêmico, utilizando as tags semânticas e dividindo o conteúdo em diferentes seções?
+
+10. **Organização das seções da página**
+
+Como estruturar as seis seções da Landing Page utilizando a tag `<section>` e identificadores (`id`), permitindo organizar o conteúdo e facilitar a navegação?
+
+11. **Estilização geral com CSS**
+
+Como organizar o CSS para padronizar as cores, fontes, tamanhos, espaçamentos e alinhamentos de uma Landing Page, mantendo uma identidade visual consistente?
+
+12. **Layout com CSS Grid e Flexbox**
+
+Como utilizar CSS Grid e Flexbox para organizar os elementos da página, distribuindo textos, imagens e cards de maneira alinhada e proporcional?
+
+13. **Estilização dos elementos das seções**
+
+Como aplicar estilos específicos aos títulos, subtítulos, parágrafos, imagens e cards de cada seção, mantendo a identidade visual da página?
+
+14. **Responsividade para diferentes dispositivos**
+
+Como utilizar Media Queries no CSS para adaptar o layout da Landing Page para computadores, tablets e smartphones, ajustando colunas, imagens, fontes e espaçamentos?
+
+15. **Ajustes de responsividade no cabeçalho**
+
+Como ajustar o cabeçalho da Landing Page para telas de tablets e smartphones, organizando o título, os links de navegação e o botão de inscrição sem sobreposição ou falta de espaçamento?
